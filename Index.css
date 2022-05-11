@@ -1,0 +1,127 @@
+
+body {
+    background-color: #2c2b2b;
+}
+.Todo {
+    color: #2c2b2b;
+    width: 100%;
+    height: 10000px;
+}
+.Cabecera {
+    color: #4e0303;
+    width: 99%;
+    height: 120px;
+    position: fixed;
+    margin-top: auto;
+    margin: 0 auto;
+    background-color: #7c0707;
+    border-radius: 5px;
+    font-size: 100px;
+    font-family: Retro_Titulo;
+}
+.Cabecera p {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0.5%;
+    color: rgb(255, 255, 255);
+}
+.How {
+    color: #4e0303;
+    width: 8%;
+    height: 4%;
+    margin-top: 123px;
+    margin-left: 2%;
+    position: fixed;
+    -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+     border-radius: 5px;
+
+}
+.How input {
+    color: #4e0303;
+    text-align: center;
+    padding-bottom: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    font-family: Retro_Titulo;
+}
+.How input:hover {
+    background-color: #7c0707;
+    color: white;
+}
+.Roms {
+    color: #4e0303;
+    width: 8%;
+    height: 4%;
+    margin-top: 123px;
+    margin-left: 10.4%;
+    position: fixed;
+    -webkit-transform: skew(-20deg);
+     -moz-transform: skew(-20deg);
+     -ms-transform: skew(-20deg);
+     -o-transform: skew(-20deg);
+     transform: skew(-20deg);
+     border-radius: 5px;
+
+}
+.Roms input {
+    color: #4e0303;
+    text-align: center;
+    padding-bottom: 0%;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    font-family: Retro_Titulo;
+}
+.Roms input:hover {
+    background-color: #7c0707;
+    color: white;
+}
+.Centro {
+    color: black;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 120px;
+}
+.abc {
+    margin: 0 auto;
+    text-align: center;
+    font-family: Horsemen;
+}
+.abc button {
+    font-family: Horsemen;
+    border-radius: 5px;
+}
+.abc button:hover {
+    background-color: #7c0707;
+    color: white;
+}
+
+.consolas {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 280px;
+    height: 220px;
+    transition: transform .2s;
+    margin-right: 42px;
+    margin-left: 43.5px;
+    margin-bottom: 80px;
+}
+.consolas:hover {
+    transform: scale(1.5);
+}
+
+@font-face {
+    font-family: "Retro_Titulo";
+    src: url("./Fuentes/Retro_Titulo.ttf");
+}
